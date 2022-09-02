@@ -295,3 +295,13 @@ main{
     top: 420px;
 }
 
+.copyrigth{
+    color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    position: absolute;
+    left: 35%;
+    top: 95%;
+}
