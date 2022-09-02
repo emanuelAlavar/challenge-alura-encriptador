@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Challenge 1 - Encriptador de texto</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/logo.png" alt="Logo de alura representada por la letra a minuscula">
+    </header>
+    <main>
+        <section id="seccion-encriptado">
+                <textarea id="input-frase" name="frase" type="text" cols="18" rows="10" placeholder="Ingrese el texto aquí" ></textarea>
+                <div class="alert-text">
+                    <img class="alert" src="img/alert.png" alt="Signo de alerta">
+                <span class="info-text">Solo letras minusculas y sin acento</span>
+                </div>
+                <div class="botones">            
+                    <button id="btn-encriptar"><a>Encriptar</a></button>
+                    <button id="btn-desencriptar"><a>Desencriptar</a></button>
+                </div>
+        </section>
+        <section id="seccion-desencriptado">
+                <div class="textos">
+                    <span class="mensaje-alerta">Ningun mensaje fue encontrado</span>   
+                    <textarea name="area" id="area" class="area-desencriptado" cols="18" rows="10" placeholder="Ingrese el texto que desees desencriptar."></textarea>             
+                </div>
+                <img class="personita" src="img/nomessage.png" alt="Logo de alura representada por la letra a minuscula">
+                <button id="btn-copy"><a>Copiar</a></button>
+        </section>
+        <script src="js/main.js"></script>
+    </main>
+</body>
+</html>
+
